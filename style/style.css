@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    bottom: 0;
+    color: var(--color-primaria-b);
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Hedvig+Letters+Serif:opsz@12..24&family=IBM+Plex+Sans:ital,wght@0,300;1,200;1,700&family=Lobster&family=Nothing+You+Could+Do&family=Roboto+Slab&family=Splash&display=swap');
+
+
+:root {
+    --bkcolor-primaria-b: rgb(25, 24, 24);
+    --bkcolor-primaria-W: rgb(243, 237, 237);
+    --bkcolor-primaria-g: rgb(26, 149, 87);
+    --bk-hover: rgb(23,135,99);
+    
+    --color-primaria-b: rgb(33, 33, 33);
+    --color-primaria-w: white;
+    --color-primari-g: rgb(26, 149, 87);
+
+    --font-family1: 'Assistant', sans-serif;
+    --font-family2: 'Hedvig Letters Serif', serif;
+    --font-family3: 'IBM Plex Sans', sans-serif;
+    --font-family4: 'Lobster', sans-serif;
+    --font-family5: 'Nothing You Could Do', 'cursive';
+    --font-family6: 'Splash', 'cursive';
+
+}
+body {
+    max-width: 100vw;
+    background-color: var(--bk-hover);
+}
+
+.cabecalho {
+    width: 100%;
+    min-height: 60px;
+    max-height: fit-content;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+    color: var(--color-primaria-w);
+    background-color: rgb(33, 33, 33);
+}
+
+/* Estilização da logo */
+.logo-container {
+    MIN-width: 300PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-nome {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0px 10px;
+    color: var(--bk-hover);
+    text-shadow: 1px 1px 5px rgb(3, 134, 9) ;
+}
+
+/* Estilização de barra de navegação */
+.nav-container {
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: 25px;
+}
+.a-nav {
+    min-width: 80px;
+    margin: 0px 2px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--bk-hover);
+}
+.a-nav:hover {
+    background-color: var(--bk-hover);
+    color: var(--color-primaria-w);
+    border-radius: 15px;
+    transition: 1s;
+}
+
+/* Estilização da área banner-container */
+.banner-container {
+    margin-top: 20px;
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    background: url(../image/image-png/opcao-de-plano-de-fundo03.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text-apresentacao {
+    max-width: 700px;
+    min-height: 350px;
+    padding: 10px 30px;
+    margin: 50px 10px;
+}
+
+.h1-apresentacao, .h2-apresentacao, .p-apresentacao { /* global */
+    text-shadow:  -1px 1px 4px rgba(255, 255, 255, 0.642);
+}
+#joaotorres, #fullstack {  /* global */
+    transition: 2s;
+    color: var(--color-primaria-w);
+    text-shadow:  -1px 1px 3px rgba(0, 0, 0, 0.83);
+}
+.h1-apresentacao {
+    font-size: 38px;
+}
+#joaotorres {
+    font-size: 65px;
+}
+
+.h2-apresentacao {
+    font-size: 30px;
+}
+#fullstack {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.p-apresentacao {
+    width: 500px;
+    font-size: 23px;
+    padding: 20px 0px;
+    font-weight: bold;
+    color: rgb(22, 21, 21);
+}
+
+.img-flut {
+    position: absolute;
+    top: 15px;
+}
+.img-flut-css {
+    top: 20%;
+    right: 22%;
+}
+
+.img-flut-html {
+    top: 42%;
+    right: 28%;
+}
